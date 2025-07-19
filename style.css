@@ -1,0 +1,76 @@
+body{
+  text-align: center;
+  background-color : #f0f0f0
+
+}
+
+.btn{
+  height: 200px;
+  width:  200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.red{
+  background-color: #d95980;
+}
+
+.yellow{
+  background-color: #f99b45;
+}
+
+.green{
+  background-color: #63aac0;
+}
+
+.purple{
+  background-color: #819ff9;
+}
+
+.flash{
+  background-color: white;
+}
+
+.userflash{
+  background-color: green;
+}
+
+#toggleMode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 40vw;
+    height: 40vw;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .line-one,
+  .line-two {
+    gap: 10px;
+  }
+}
